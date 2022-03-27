@@ -16,6 +16,7 @@
 		552C049F27F0A0E000FE70E3 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 552C049B27F0A0E000FE70E3 /* product.json */; };
 		552C04A027F0A0E000FE70E3 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 552C049C27F0A0E000FE70E3 /* player.json */; };
 		552C04AB27F0A55100FE70E3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C04AA27F0A55100FE70E3 /* Constant.swift */; };
+		552C04AD27F0AB9100FE70E3 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C04AC27F0AB9100FE70E3 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		552C049C27F0A0E000FE70E3 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		552C04A227F0A18400FE70E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		552C04AA27F0A55100FE70E3 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		552C04AC27F0AB9100FE70E3 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,8 @@
 		552C04A427F0A38000FE70E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				552C04A627F0A39C00FE70E3 /* Detail */,
 				552C04A527F0A39000FE70E3 /* Home */,
+				552C04A627F0A39C00FE70E3 /* Detail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +117,7 @@
 		552C04A527F0A39000FE70E3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				552C04AC27F0AB9100FE70E3 /* FooterView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552C048E27F0942800FE70E3 /* ContentView.swift in Sources */,
+				552C04AD27F0AB9100FE70E3 /* FooterView.swift in Sources */,
 				552C048C27F0942800FE70E3 /* TouchdownApp.swift in Sources */,
 				552C04AB27F0A55100FE70E3 /* Constant.swift in Sources */,
 			);
