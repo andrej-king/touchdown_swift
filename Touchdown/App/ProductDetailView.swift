@@ -29,6 +29,9 @@ struct ProductDetailView: View {
             
             VStack(alignment: .center, spacing: 0, content: {
                 // RATINGS + SIZES
+                RatingsSizesDetailView()
+                    .padding(.top, -20)
+                    .padding(.bottom, 10)
                 
                 // DESCRIPTION
                 
