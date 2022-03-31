@@ -37,6 +37,7 @@
 		553CCECB27F621A10030ECC4 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCECA27F621A10030ECC4 /* NavigationBarDetailView.swift */; };
 		553CCECD27F6281F0030ECC4 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCECC27F6281F0030ECC4 /* HeaderDetailView.swift */; };
 		553CCECF27F629980030ECC4 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCECE27F629980030ECC4 /* TopPartDetailView.swift */; };
+		553CCED127F6330A0030ECC4 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCED027F6330A0030ECC4 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		553CCECA27F621A10030ECC4 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		553CCECC27F6281F0030ECC4 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		553CCECE27F629980030ECC4 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		553CCED027F6330A0030ECC4 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				552C04AA27F0A55100FE70E3 /* Constant.swift */,
+				553CCED027F6330A0030ECC4 /* CustomShape.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				553CCEC527F619420030ECC4 /* BrandItemView.swift in Sources */,
 				553CCEB727F36C7B0030ECC4 /* CategoryItemView.swift in Sources */,
 				552C04CA27F0E93E00FE70E3 /* FeaturedTabView.swift in Sources */,
+				553CCED127F6330A0030ECC4 /* CustomShape.swift in Sources */,
 				552C04BE27F0C72F00FE70E3 /* PlayerModel.swift in Sources */,
 				553CCEC327F618650030ECC4 /* BrandModel.swift in Sources */,
 				553CCEBD27F60AE50030ECC4 /* TitleView.swift in Sources */,

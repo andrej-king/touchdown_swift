@@ -23,22 +23,43 @@ struct ProductDetailView: View {
             
             TopPartDetailView(product: product)
                 .padding(.horizontal)
+                .zIndex(1) // make top part (with help) on front
             
             // DETAIL BOTTOM PART
-            // RATINGS + SIZES
-            // DESCRIPTION
-            // QUANTITY + FAVOURITE
             
-            // ADD TO CART
-            Spacer()
+            VStack(alignment: .center, spacing: 0, content: {
+                // RATINGS + SIZES
+                
+                // DESCRIPTION
+                
+                ScrollView(.vertical, showsIndicators: false, content: {
+                    Text(product.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.leading)
+                }) //: SCROLL
+                
+                // QUANTITY + FAVOURITE
+                
+                // ADD TO CART
+                Spacer()
+                
+            }) //: VSTACK
+            .padding(.horizontal)
+            .background(
+                Color.white
+                    .clipShape(CustomShape())
+                    .padding(.top, -105) // move white backgroud upper
+            )
         }) //: VSTACK
+        .zIndex(0) // make white bg behind
         .ignoresSafeArea(.all, edges: .all)
         .background(
             Color(
                 red: product.red,
                 green: product.green,
                 blue: product.blue
-            ).ignoresSafeArea(.all, edges: .all)
+            ).ignoresSafeArea(.all, edges: .all) // colored bg
         )
     }
 }
