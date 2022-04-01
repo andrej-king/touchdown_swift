@@ -39,6 +39,7 @@
 		553CCECF27F629980030ECC4 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCECE27F629980030ECC4 /* TopPartDetailView.swift */; };
 		553CCED127F6330A0030ECC4 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCED027F6330A0030ECC4 /* CustomShape.swift */; };
 		553CCED327F637070030ECC4 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCED227F637070030ECC4 /* RatingsSizesDetailView.swift */; };
+		553CCED527F63C880030ECC4 /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553CCED427F63C880030ECC4 /* QuantityFavouriteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		553CCECE27F629980030ECC4 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		553CCED027F6330A0030ECC4 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		553CCED227F637070030ECC4 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
+		553CCED427F63C880030ECC4 /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				553CCECC27F6281F0030ECC4 /* HeaderDetailView.swift */,
 				553CCECE27F629980030ECC4 /* TopPartDetailView.swift */,
 				553CCED227F637070030ECC4 /* RatingsSizesDetailView.swift */,
+				553CCED427F63C880030ECC4 /* QuantityFavouriteDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				552C04BE27F0C72F00FE70E3 /* PlayerModel.swift in Sources */,
 				553CCEC327F618650030ECC4 /* BrandModel.swift in Sources */,
 				553CCEBD27F60AE50030ECC4 /* TitleView.swift in Sources */,
+				553CCED527F63C880030ECC4 /* QuantityFavouriteDetailView.swift in Sources */,
 				553CCEBF27F60CB80030ECC4 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
