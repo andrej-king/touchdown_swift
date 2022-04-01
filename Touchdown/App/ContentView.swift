@@ -22,7 +22,7 @@ struct ContentView: View {
                         VStack(spacing: 0) {
                             // TODO: Fix error with tab images size
                             FeaturedTabView()
-                                .padding(.vertical, 20)
+                                .frame(width: 400, height: 300)
                             
                             CategoryGridView()
                             
