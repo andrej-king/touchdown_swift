@@ -3,7 +3,7 @@ import SwiftUI
 struct ProductDetailView: View {
     // MARK: - PROPERTY
     
-    let product: Product
+    let product: Product = sampleProduct
     
     // MARK: - BODY
     
@@ -74,7 +74,7 @@ struct ProductDetailView: View {
 
 struct ProductDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductDetailView(product: sampleProduct)
+        ProductDetailView()
             .previewLayout(.fixed(width: 375, height: 812))
     }
 }
