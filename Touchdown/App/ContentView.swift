@@ -20,9 +20,12 @@ struct ContentView: View {
                     
                     ScrollView(.vertical, showsIndicators: false, content: {
                         VStack(spacing: 0) {
-                            // TODO: Fix error with tab images size
                             FeaturedTabView()
-                                .frame(width: 400, height: 300)
+                                .padding(.vertical)
+                                .frame(height: UIScreen.main.bounds.width / 1.475)
+//                                .frame(minHeight: 256)
+//                                .padding(.vertical, 10)
+
                             
                             CategoryGridView()
                             
