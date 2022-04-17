@@ -23,6 +23,7 @@ struct CategoryItemView: View {
                 
                 Spacer()
             } //: HSTACK
+            .frame(width: 180, height: 45, alignment: .leading)
             .padding()
             .background(Color.white.cornerRadius(12))
             .background(

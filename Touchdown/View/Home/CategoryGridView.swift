@@ -18,7 +18,7 @@ struct CategoryGridView: View {
                     } //: LOOP
                 } //: SECTION
             }) //: GRID
-            .frame(height: 140)
+            .frame(height: 160)
             .padding(.horizontal, 15)
             .padding(.vertical, 10)
         }) //: SCROLL
